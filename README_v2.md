@@ -1,4 +1,4 @@
-# 📊 Tesis: [Tu título aquí]
+# 📊 Tesis: Modelación hidrológica e hidráulica de eventos de inundación en la cuenca del río Haina mediante HEC-HMS y HEC-RAS
 
 ## 📌 Descripción
 Este repositorio contiene los datos, scripts y resultados utilizados para el desarrollo de mi tesis.
