@@ -81,7 +81,7 @@ Se desarrolló un modelo hidrológico de la cuenca del río Isa utilizando HEC-H
 
  # Modelación hidráulica (HEC-RAS)
 
-Los caudales obtenidos fueron utilizados en HEC-RAS para simular el comportamiento del flujo en el cauce del río Isa, permitiendo identificar zonas potenciales de desbordamiento e inundación.
+Se generó una aproximación de la zona de inundación mediante un buffer hidráulico alrededor del cauce principal del río Isa, como representación simplificada de la expansión lateral del flujo en condiciones de crecida. Esta metodología es equivalente a una aproximación preliminar de resultados obtenidos mediante modelos hidráulicos como HEC-RAS. Los caudales obtenidos fueron utilizados en HEC-RAS para simular el comportamiento del flujo en el cauce del río Isa, permitiendo identificar zonas potenciales de desbordamiento e inundación.
 
  # Resultados
 -Mapas de precipitación acumulada
