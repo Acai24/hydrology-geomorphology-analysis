@@ -9,14 +9,17 @@ Este estudio tiene como objetivo analizar la precipitación en la cuenca del rí
 
 ## Estructura del repositorio
 data/
+   ## Estructura del repositorio
+
+data/
    ├── precipitation/
    ├── hydrology/
    ├── gis/
 
 scripts/
-   ├── 01_preprocessing.R
-   ├── 02_hydrology_analysis.R
-   ├── 03_risk_mapping.R
+ ├── 01_data_cleaning.R
+ ├── 02_hydrology_model.R
+ ├── 03_flood_mapping.R
 
 hec_hms/
    ├── basin_model/
@@ -26,21 +29,30 @@ hec_hms/
 hec_ras/
    ├── geometry/
    ├── flow_data/
+   ├── boundary_conditions/   
    ├── ras_outputs/
+   
 
 figures/
-   ├── precipitation_analysis/figures/simulation/
+   ├── precipitation_analysis/
    ├── flood_maps/
    ├── ras_profiles/
+   ├── simulation/
+   ├── hec_ras_simulation.mp4
+
+# Simulación hidráulica (HEC-RAS)
+
+Simulación del comportamiento del flujo en el río Isa bajo condiciones de crecida:
+
+![HEC-RAS Simulation](figures/simulation/hec_ras_simulation.mp4)
 
 results/
    ├── discharge_results.csv
    ├── flood_depths.tif
 
- thesis/
+thesis/
    ├── thesis.pdf
    ├── methodology.md
-
 ---
 
 ## Metodología
