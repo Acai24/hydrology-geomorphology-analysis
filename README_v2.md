@@ -49,6 +49,7 @@ Simulación del comportamiento del flujo en el río Isa bajo condiciones de crec
 results/
    ├── discharge_results.csv
    ├── flood_depths.tif
+   ├── discharge_results.csv
 
 thesis/
    ├── thesis.pdf
