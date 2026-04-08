@@ -34,24 +34,16 @@ hec_ras/
    
 
 figures/
-   ├── precipitation_analysis/
+  figures/
    ├── flood_maps/
-   ├── ras_profiles/
-   ├── simulation/
-   ├── hec_ras_simulation.mp4
-
-# Simulación hidráulica (HEC-RAS)
-
-Simulación del comportamiento del flujo en el río Isa bajo condiciones de crecida:
-
--Simulación hidráulica (HEC-RAS)
-[Ver simulación](figures/simulation/hec_ras_simulation.mp4)
-
+       ├── flood_map_isa.png
+   ├── precipitation_analysis/
+       ├── hydrograph.png
+       ├── precipitation_boxplot.png
 
 results/
    ├── discharge_results.csv
-   ├── flood_depths.tif
-   ├── discharge_results.csv
+   ├── flood_zone.shp
 
 thesis/
    ├── thesis.pdf
@@ -104,7 +96,7 @@ Se realizó una simulación hidráulica del río Isa utilizando HEC-RAS, donde s
 https://github.com/tu-usuario/tu-repo/blob/main/figures/simulation/hec_ras_simulation.mp4
 
  # Resultados
- -Modelación hidrológica e hidráulica; The analysis of precipitation allows the caudate to be measured in a simple manner based on the coefficients of escorrentia, which represents an approximate conceptual model in HEC-HMS.The caudales generados fueron utilizados as part of the hydraulic simulation in HEC-RAS, permitiendo to analyze the transport of the flujo in the cauce of the Río Isa. Los results evidencian una expansion lateral del flujo en conditions de high precipitation, lo cual fue representado mediante la generación de zonas de inundación en torno SIG.
+Los resultados del análisis hidrológico ponen de manifiesto una clara relación entre la precipitación mensual y la generación de caudales en la cuenca del río Isa. Los meses con mayores precipitaciones registran aumentos significativos en la estimación de caudales, lo que incrementa el riesgo de inundación.
 -Mapas de precipitación acumulada
 -Hidrogramas de caudal
 -Mapas de profundidad de inundación
