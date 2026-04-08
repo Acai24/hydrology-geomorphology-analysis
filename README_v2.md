@@ -44,7 +44,9 @@ figures/
 
 Simulación del comportamiento del flujo en el río Isa bajo condiciones de crecida:
 
-![HEC-RAS Simulation](figures/simulation/hec_ras_simulation.mp4)
+-Simulación hidráulica (HEC-RAS)
+[Ver simulación](figures/simulation/hec_ras_simulation.mp4)
+
 
 results/
    ├── discharge_results.csv
