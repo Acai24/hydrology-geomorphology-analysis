@@ -29,7 +29,7 @@ hec_ras/
    ├── ras_outputs/
 
 figures/
-   ├── precipitation_analysis/
+   ├── precipitation_analysis/figures/simulation/
    ├── flood_maps/
    ├── ras_profiles/
 
@@ -83,7 +83,13 @@ Se desarrolló un modelo hidrológico de la cuenca del río Isa utilizando HEC-H
 
 Se generó una aproximación de la zona de inundación mediante un buffer hidráulico alrededor del cauce principal del río Isa, como representación simplificada de la expansión lateral del flujo en condiciones de crecida. Esta metodología es equivalente a una aproximación preliminar de resultados obtenidos mediante modelos hidráulicos como HEC-RAS. Los caudales obtenidos fueron utilizados en HEC-RAS para simular el comportamiento del flujo en el cauce del río Isa, permitiendo identificar zonas potenciales de desbordamiento e inundación.
 
+# Simulación hidráulica (HEC-RAS)
+
+Se realizó una simulación hidráulica del río Isa utilizando HEC-RAS, donde se modeló el comportamiento del flujo bajo condiciones de crecida.
+https://github.com/tu-usuario/tu-repo/blob/main/figures/simulation/hec_ras_simulation.mp4
+
  # Resultados
+ -Modelación hidrológica e hidráulica; The analysis of precipitation allows the caudate to be measured in a simple manner based on the coefficients of escorrentia, which represents an approximate conceptual model in HEC-HMS.The caudales generados fueron utilizados as part of the hydraulic simulation in HEC-RAS, permitiendo to analyze the transport of the flujo in the cauce of the Río Isa. Los results evidencian una expansion lateral del flujo en conditions de high precipitation, lo cual fue representado mediante la generación de zonas de inundación en torno SIG.
 -Mapas de precipitación acumulada
 -Hidrogramas de caudal
 -Mapas de profundidad de inundación
