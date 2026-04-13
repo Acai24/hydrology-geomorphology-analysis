@@ -34,12 +34,8 @@ hec_ras/
    
 
 figures/
-  figures/
    ├── flood_maps/
-       ├── flood_map_isa.png
    ├── precipitation_analysis/
-       ├── hydrograph.png
-       ├── precipitation_boxplot.png
 
 results/
    ├── discharge_results.csv
@@ -82,9 +78,21 @@ El análisis de precipitación mensual en la cuenca del río Isa permitió ident
 
 A partir de los datos de precipitación, se estimó el caudal superficial mediante un coeficiente de escorrentía, evidenciando una relación directa entre precipitación y caudal generado.
 
+## Figura 1. Distribución de la precipitación
+
+![Boxplot de precipitación](figures/precipitation_analysis/precipitation_boxplot.png)
+
+### Figura 2. Hidrograma
+
+![Hidrograma](figures/precipitation_analysis/hydrograph.png)
+
  # Modelación hidrológica (HEC-HMS)
 
 Se desarrolló un modelo hidrológico de la cuenca del río Isa utilizando HEC-HMS para transformar la precipitación en caudal de escorrentía. Este modelo permitió estimar hidrogramas de respuesta para distintos eventos de lluvia.
+
+## Figura 3. Mapa de inundación
+
+![Mapa de inundación](figures/flood_maps/flood_map_isa.png)
 
  # Modelación hidráulica (HEC-RAS)
 
@@ -93,7 +101,8 @@ Se generó una aproximación de la zona de inundación mediante un buffer hidrá
 # Simulación hidráulica (HEC-RAS)
 
 Se realizó una simulación hidráulica del río Isa utilizando HEC-RAS, donde se modeló el comportamiento del flujo bajo condiciones de crecida.
-https://github.com/tu-usuario/tu-repo/blob/main/figures/simulation/hec_ras_simulation.mp4
+
+[Ver simulación en HEC-RAS](https://github.com/tu-usuario/tu-repo/blob/main/figures/simulation/hec_ras_simulation.mp4)
 
  # Resultados
 Los resultados del análisis hidrológico ponen de manifiesto una clara relación entre la precipitación mensual y la generación de caudales en la cuenca del río Isa. Los meses con mayores precipitaciones registran aumentos significativos en la estimación de caudales, lo que incrementa el riesgo de inundación.
@@ -102,6 +111,9 @@ Los resultados del análisis hidrológico ponen de manifiesto una clara relació
 -Mapas de profundidad de inundación
 -Zonas de riesgo hidráulico
 
+<p align="center">
+  <img src="figures/precipitation_analysis/precipitation_boxplot.png" width="500">
+</p>
 ---
 
 ## 👩‍💻 Autor
